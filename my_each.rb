@@ -3,6 +3,7 @@ def my_each(string)
   
   while i < string.length
     yield puts string
+    i += 1
   end
   
   string
